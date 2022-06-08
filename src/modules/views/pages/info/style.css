@@ -1,0 +1,71 @@
+.info_container {
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+.info_up_wrap {
+  display: flex;
+}
+.map_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.map_title {
+  font-weight: bold;
+}
+.profile_list {
+  font-size: 18px;
+}
+.address_list {
+  overflow-y: auto;
+  border: 3px solid grey;
+  border-radius: 8px;
+  height: 600px;
+}
+.address_list::-webkit-scrollbar {
+  display: none;
+}
+.address_list_ind {
+  display: flex;
+  margin: 18px 0;
+  border-bottom: 1px solid grey;
+}
+.address_list_add1 {
+  display: flex;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.address_list_add2 {
+  color: grey;
+  display: flex;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.address_list_phone {
+  color: green;
+  display: flex;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 16px;
+}
+li {
+  list-style: none;
+  margin-right: 10px;
+}
+.btn_logout {
+  float: right;
+}
+.accordion {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+mark {
+  background-color: #f59b2586;
+}
+@media (max-width: 500px) {
+  .map_container {
+    top: initial;
+  }
+}
